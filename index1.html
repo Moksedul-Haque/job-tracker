@@ -20,16 +20,19 @@
 
     <div class=" flex gap-7 pt-7 ml-5">
 
-        <div class="border border-gray-300 w-[150px] p-[10px]  text-2xl rounded bg-slate-200 hover:">
+        <div class="border border-gray-300 w-[150px] p-[10px]  text-2xl rounded bg-slate-200 hover:bg-blue-500">
             <h3>Total</h3>
             <p id="totalCount">0</p>
         </div>
-        <div class="border border-gray-300 w-[150px] p-[10px] rounded text-2xl bg-slate-200 interview-btn">
+
+        <div
+            class="border border-gray-300 w-[150px] p-[10px] rounded text-2xl bg-slate-200 hover:bg-blue-500 interview-btn">
             <h3>interview</h3>
             <p id="interviewCount" class="text-blue-600">0</p>
 
         </div>
-        <div class="border border-gray-300 w-[150px] p-[10px] rounded text-2xl bg-slate-200 rejected-btn">
+        <div
+            class="border border-gray-300 w-[150px] p-[10px] rounded text-2xl bg-slate-200 hover:bg-blue-500 rejected-btn">
             <h3>Rejected</h3>
             <p id="rejectedCount" class="text-red-500">0</p>
         </div>
@@ -43,9 +46,9 @@
 
 
     <div class="flex gap-5  m-[20px]">
-        <div class="p-2 border border-gray-300 font-bold rounded">All</div>
-        <div class="p-2 border border-gray-300 font-bold rounded interview-btn">Interview</div>
-        <div class="p-2 border border-gray-300 font-bold rounded rejected-btn">Rejected</div>
+        <div class="p-2 border border-gray-300 font-bold hover:bg-blue-500 rounded">All</div>
+        <div class="p-2 border border-gray-300 font-bold rounded hover:bg-blue-500 interview-btn">Interview</div>
+        <div class="p-2 border border-gray-300 font-bold rounded hover:bg-blue-500 rejected-btn">Rejected</div>
     </div>
 
 
@@ -64,16 +67,17 @@
 
 
             </p>
-            <button class="btn mt-5">Not Applied</button>
+            <button class="btn mt-5 hover:bg-blue-500">Not Applied</button>
 
             <p>Build cross-platform mobile applications using React Native. Work on products used by millions of
                 users worldwide.</p>
 
             <div class="flex gap-4 m-3">
-                <button class="btn border border-green-600">Interview</button>
+                <button id="interviewBtn"
+                    class="btn interviewBtn hover:bg-blue-500 border border-green-600">Interview</button>
 
 
-                <button class="btn border border-red-600">Rejected </button>
+                <button class="btn rejectedBtn border border-red-600 hover:bg-blue-500">Rejected </button>
 
             </div>
         </div>
@@ -91,17 +95,17 @@
 
 
             </p>
-            <button class="btn mt-5">Not Applied</button>
+            <button class="btn mt-5 hover:bg-blue-500">Not Applied</button>
 
             <p>Create stunning web experiences for high-profile clients. Must have portfolio and experience
                 with
                 modern web design trends.</p>
 
             <div class="flex gap-4 m-3">
-                <button class="btn border border-green-600">Interview</button>
+                <button class="btn interviewBtn border border-green-600 hover:bg-blue-500">Interview</button>
 
 
-                <button class="btn border border-red-600">Rejected </button>
+                <button class="btn rejectedBtn border border-red-600 hover:bg-blue-500">Rejected </button>
 
             </div>
         </div>
@@ -119,17 +123,17 @@
                 Boston, MA • Full-time • $125,000 - $165,000
 
             </p>
-            <button class="btn mt-5">Not Applied</button>
+            <button class="btn mt-5 hover:bg-blue-500">Not Applied</button>
 
             <p>Transform complex data into compelling visualizations. Required skills: D3.js, React, and
                 strong
                 analytical thinking..</p>
 
             <div class="flex gap-4 m-3">
-                <button class="btn border border-green-600">Interview</button>
+                <button class="btn interviewBtn border border-green-600 hover:bg-blue-500">Interview</button>
 
 
-                <button class="btn border border-red-600">Rejected </button>
+                <button class="btn rejectedBtn border border-red-600 hover:bg-blue-500">Rejected </button>
 
             </div>
         </div>
@@ -148,17 +152,17 @@
 
 
             </p>
-            <button class="btn mt-5">Not Applied</button>
+            <button class="btn mt-5 hover:bg-blue-500">Not Applied</button>
 
             <p>Design and maintain scalable backend systems using Python and AWS. Work with modern
                 DevOps practices
                 and cloud infrastructure.</p>
 
             <div class="flex gap-4 m-3">
-                <button class="btn border border-green-600">Interview</button>
+                <button class="btn interviewBtn border border-green-600 hover:bg-blue-500">Interview</button>
 
 
-                <button class="btn border border-red-600">Rejected </button>
+                <button class="btn rejectedBtn border border-red-600 hover:bg-blue-500">Rejected </button>
 
             </div>
         </div>
@@ -173,17 +177,17 @@
                 Austin, TX • Full-time • $110,000 - $150,000
 
             </p>
-            <button class="btn mt-5">Not Applied</button>
+            <button class="btn mt-5 hover:bg-blue-500">Not Applied</button>
 
             <p>Create beautiful and functional user interfaces for our suite of products. Strong
                 design skills and
                 frontend development required..</p>
 
             <div class="flex gap-4 m-3">
-                <button class="btn border border-green-600">Interview</button>
+                <button class=" interviewBtn border border-green-600 hover:bg-blue-500">Interview</button>
 
 
-                <button class="btn border border-red-600">Rejected </button>
+                <button class="btn rejectedBtn border border-red-600 hover:bg-blue-500">Rejected </button>
 
             </div>
         </div>
@@ -199,17 +203,17 @@
 
 
             </p>
-            <button class="btn mt-5">Not Applied</button>
+            <button class="btn mt-5 hover:bg-blue-500">Not Applied</button>
 
             <p>Build enterprise applications with JavaScript and modern frameworks. We offer
                 competitive
                 compensation, health insurance, and professional development opportunities.</p>
 
             <div class="flex gap-4 m-3">
-                <button class="btn border border-green-600">Interview</button>
+                <button class="btn interviewBtn border border-green-600 hover:bg-blue-500">Interview</button>
 
 
-                <button class="btn border border-red-600">Rejected </button>
+                <button class="btn rejectedBtn border border-red-600 hover:bg-blue-500">Rejected </button>
 
             </div>
         </div>
@@ -225,22 +229,23 @@
 
 
             </p>
-            <button class="btn mt-5">Not Applied</button>
+            <button class="btn mt-5 hover:bg-blue-500">Not Applied</button>
 
             <p>Join our fast-growing startup and work on our core platform. Experience with
                 Node.js and React
                 required. Great benefits and equity package included..</p>
 
             <div class="flex gap-4 m-3">
-                <button class="btn border border-green-600">Interview</button>
+                <button class="btn interviewBtn border border-green-600 hover:bg-blue-500">Interview</button>
 
 
-                <button class="btn border border-red-600">Rejected </button>
+                <button class="btn rejectedBtn border border-red-600 hover:bg-blue-500">Rejected </button>
             </div>
 
         </div>
 
     </div>
+    <script src="index.js"></script>
 
 
 
